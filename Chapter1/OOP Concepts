@@ -243,4 +243,127 @@ truck, car,bus are inherited from vehicle.
 Hybrid inheritance: means it's the mix of all inheritance e.g. any class can inhertied from any superclass or base class.
 There's not limitation of any inhertiance in this to transfer/ share the data.
 
-Polumorphism
+Polumorphism another pillar of OOP:
+
+Polymorphism come from two words first is poly(many) and morph(forms). In oop it refers to the ability of an object to take on different 
+forms or behave in difference ways depending on the context in which they are used.
+e.g. consturctor overloading is a good example
+
+class student{
+  student(){
+cout<<"I'm a default constructor:;
+  }
+
+  student(string name){
+cout<<"I'm a parametrized constructor.";
+this->name= name;
+  }
+}
+so this will call in ame on depend on their context because they have same name of functions but different context.
+Simply, it allows you to perform multiple operations on differenct ways.
+another example of shapes in tools it will use shape but uses rectangle,square, circle shapes depend on their context.
+
+There are two types of polymorphism
+compile time polymorphism is also called static polymorphism
+run time polymorphism define at the creation of method/function to select which operation is perform. e.g. it's the example 
+of constructor overloading and fucntion overloading and operator overloading.
+function overloading is this.
+
+class std{
+
+void show(int x){
+cout<<"int"<<x;
+}
+
+void show(string x){
+cout<<"string"<<x;
+}
+}
+so basically this select at which function is calles at compile time.
+
+Run time polymorphism is also called static polymorphism.
+run time polymorphism is defined at run time it's select which function is perform at run time e.g. both parent and child class have 
+same function printData() than it'll select the details at the creation of objects e.g. if the object called from parent than it'll called
+the parent class function and if object called from child class than it'll print the function of child class.
+The main example of this is function override.
+
+class parent{
+void show(){
+cout<<"hello from parent::";
+ }
+}
+
+class child: public parent{
+void show(){
+cout<<"hello from child";
+}
+}
+if it creates parent obj.show it'll print the parent function and if it creates child obj.show() it'll show the child function
+
+<-------------------------------------------------------------------------------->
+
+Difference between function overridden and function overloading.
+function overriding mean there are more functions in both parent and child class with same name and have same parameters so the compiler
+will detect at run time.
+
+function overridden means it's have more function in a class with same name but  multiple paramters or differenct parameters so the
+compiler will detect this at compile time.
+
+
+
+another example of this is virtual function
+
+
+<---------------------------------------------------------------------------------------------->
+
+Virtual Functions is also a example of polymorphism
+Virtual function is a member function that you expect to be reefined in a derived class.
+basically it's simple mean we use virutal keyword to define the virtual function and than implement the functions but in main function
+it'll call on the context of theri object. basically it's re-implement the function in dervied class
+e.g. if class parent have virtau
+
+class parent{
+virtual show(){
+cout,<< parent class;
+}
+}
+class child{
+show(){
+cout<<base class;
+}
+}
+
+if parent obj.show it'll show the parent class and if child obj.show() it'll show the child show() function
+
+they are always Dynamic in nature and they are always define with 'virtual' keyword inside a base class and re-define in derive class.
+
+a virtual function is called on Run Time.
+
+
+Abstraction 4rth pillar of OOP
+it's simple mean is hiding all the unnecessary details and showing only the necessary parts of details.
+this is only implement by access modifiers.
+e.g. In data hiding we only hide the data but in abstraction we can show the necessary data as well.
+
+Abstract Class: is a class in which it'll direct to other classes to perform operations. abstract class cannot implement operation on 
+itself but it'll direct to other classes to perform operations e.g. a shape class can be a blue print to other classes but untill define
+the exact shape we cannot describe the shape e.g. either it's a circle,arrow,rectangle and etc.
+
+class shape{
+ virtual void draw=0;
+}
+
+circle :public shape{
+ void draw(){
+cout<<"this is a circle shape";
+ }
+}
+
+in main function 
+int main()
+{
+  circle obj.draw();
+}
+Remember we cannot make this object it'll only use as a blue print or guidance class to other classes.
+
+}
