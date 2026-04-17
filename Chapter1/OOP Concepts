@@ -10,4 +10,14 @@ Let's start with basics:
 objects, class 
 What is class and what is object?
 
-An object is 
+Object is any entity in real world e.g. pen, laptop anything can be object.
+
+Class is like a blueprint of these entities. e.g. a ford build a car factory so they setup a pipe line for manufacturing cars for 
+multiple models so they build their all calls. 
+
+another example real world class than students in class are objects is also a class example. so this mean in class we can do same task
+repeteadly without creating new class i.e. Class.
+
+
+
+
