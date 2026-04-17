@@ -18,6 +18,32 @@ multiple models so they build their all calls.
 another example real world class than students in class are objects is also a class example. so this mean in class we can do same task
 repeteadly without creating new class i.e. Class.
 
+Access modifiers
+
+Access modifiers is a special keyword. this will inside the class. There are 3 types of access modifiers private, protected and public.
+
+Private means if we created some data/ attribute inside a class and we do'nt want to show this with others than we set this to private.
+
+
+class teacher{
+
+// Attributes/ properties ---> creating variables in class called attribures/ properties.
+string teacherName='';
+string teacherDepartment='';
+
+// methods/ member functons ----> Creating functions in class called methods/ member functions.
+
+void changeDepartment(){
+ cout>>"Change department";
+}
+
+}
+
+int main()
+{
+teacher obj1; <--- Creating object
+
+}
 
 
 
