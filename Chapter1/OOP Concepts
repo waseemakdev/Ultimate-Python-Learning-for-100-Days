@@ -19,17 +19,32 @@ multiple models so they build their all calls.
 another example real world class than students in class are objects is also a class example. so this mean in class we can do same task
 repeteadly without creating new class i.e. Class.
 
-Access modifiers
+// Access modifiers
 
 Access modifiers is a special keyword. this will inside the class. There are 3 types of access modifiers private, protected and public.
 
-Private means if we created some data/ attribute inside a class and we do'nt want to show this with others than we set this to private.
+Private means if we created some data/ attribute inside a class and we do'nt want to show this with others or in main file than we 
+set this to private.
+
+// Public access modifier
+Public access modifier mean is we can access data in simply publicly any ware.
+
+// Protected access mofifier
+Protected access mofifier mean we access the data with in the class and our derived class as well.
 
 
 class teacher{
 
 // Attributes/ properties ---> creating variables in class called attribures/ properties.
+
+
+// Private access modifier/
+private:
+
 string teacherName='';
+
+// Public access modifier
+public:
 string teacherDepartment='';
 
 // methods/ member functons ----> Creating functions in class called methods/ member functions.
