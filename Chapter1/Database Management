@@ -20,8 +20,27 @@ Schema Architecture,
 
 Data Independence
 
+###
 Integrity Constraints
 
+Integrity Constraints types:
+
+Domain Integrity Constraintes:
+
+
 Entity Integrity Constraints
+
+Referntial Integrity Constraints:
+
+Key Constraints:
+
+Candidate Key:
+
+Primary Key:
+
+Foreign Key:
+
+######
+Referential Integrity:
 
 Keys, 
