@@ -56,3 +56,11 @@ Minimal Corner (Irreducible Set of Functional Dependencies)
 
 A minimal cover or (cononical cover) in DBMS is the simples, irreducible set of functional dependencies (D.F)
 Keys, 
+There are three steps to find the minimal order.
+1. Make sure in RHS only one attribute exist.
+A->B
+
+2. We're going to get Closure and remove the redundant values.
+
+2. In LHS it'll have only one attribute
+AC->D
