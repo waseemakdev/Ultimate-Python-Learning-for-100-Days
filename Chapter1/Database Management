@@ -107,4 +107,9 @@ Create table <table_name>
 );
 desc table_name; <---- This will show visually data
 
+Queries and Sub Queries (Nested Quries)
+
+Group by Clause
+
+
 
