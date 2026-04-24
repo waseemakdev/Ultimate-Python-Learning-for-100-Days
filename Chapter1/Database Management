@@ -74,3 +74,37 @@ In 1970 EF Codd who started Relational Algebra.
 => SQL domain specific language not like C,C++ ther're general purpose.
 => SQL is declarative language. "This will tell what to do like a qustion not guidance like how to do this question's selection".
 
+SQL Commands
+=> Data Definiton Language (DDL)
+   => Create
+   => Alter
+   => Drop
+   => Transaction
+   => Rename
+=> Data Manipulation Language (DML)
+   => Select
+   => Insert
+   => Update
+   => Delete
+=> Data Control Language (DCL)
+   => Grant
+   => Revoke
+=> Transction Control Language (TCL)
+   => Commit
+   => Roll back
+   => Save point
+=> Constraints
+   => Primary Key
+   => Foreign Key
+   => Check
+   => Unique
+   => Default
+   => Not NULL
+
+Create table <table_name>
+( column1 datatype
+  column2 datatype
+);
+desc table_name; <---- This will show visually data
+
+
