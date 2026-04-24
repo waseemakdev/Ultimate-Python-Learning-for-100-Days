@@ -69,3 +69,8 @@ AC->D
 
 Introduction to SQL (Structure Query Language)
 
+In 1970 EF Codd who started Relational Algebra.
+
+=> SQL domain specific language not like C,C++ ther're general purpose.
+=> SQL is declarative language. "This will tell what to do like a qustion not guidance like how to do this question's selection".
+
