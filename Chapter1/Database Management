@@ -123,6 +123,8 @@ Sequences in SQL
 
 Aggregate Functions
 
+Co-related Sub-Query (Synchronized Query)
+
 serializability
 
 
