@@ -136,6 +136,14 @@ Introduction to PL-SQL
 Introduction to Transaction Concurrency
 
 ACID Properties in Transcation Concurrency
+
+Atomicity
+
+Consistency
+
+Isolation
+
+Durability
 serializability
 
 
