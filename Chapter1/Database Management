@@ -147,7 +147,11 @@ Durability
 
 Transaction States
 
-What is Schedule 
+What is Schedule?
+
+Serial Vs Parallel
+
+Types of Problems in Concurrency
 serializability
 
 
