@@ -144,6 +144,10 @@ Consistency
 Isolation
 
 Durability
+
+Transaction States
+
+What is Schedule 
 serializability
 
 
