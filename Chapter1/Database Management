@@ -129,6 +129,8 @@ Find all employees details who work in a department.
 
 Nested Query without Correlation
 
+Difference b/w  joins, Nested Sub-quries and correlated Sub-query
+
 serializability
 
 
