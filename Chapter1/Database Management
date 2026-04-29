@@ -139,11 +139,11 @@ ACID Properties in Transcation Concurrency
 
 Atomicity is either null or rollback
 
-Consistency (Transaction don not affect each other)
+Consistency 
 
-Isolation
+Isolation (Transaction don not affect each other)
 
-Durability
+Durability (Permanent Changes after commitment)
 
 Transaction States
 
