@@ -173,7 +173,15 @@ types of ccp
 
 shared protocol
 exclusive protocol
+
 2 phase locking (2pl)
+
+growing phase in 2pl
+shrinking phase in 2pl
+
+strict 2pl, Rigorous 2pl
+
+Time Stamp
 
 
 Write-Read Conflicts (Dity Read Problem or Unrepeatable Read Problem)
