@@ -197,3 +197,5 @@ Types of indexing:
 => clustered indexing
 
 Dynamic Multilevel indexing => B-Tree
+
+Difference b/w B-Tree and B+-Tree
