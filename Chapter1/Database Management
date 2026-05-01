@@ -195,3 +195,5 @@ Types of indexing:
 => Primary indexing
 => Secondary indexing
 => clustered indexing
+
+Dynamic Multilevel indexing => B-Tree
